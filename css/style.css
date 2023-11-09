@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+.burger-menu {
+  width: 24px;
+  height: 24px;
+}
+.div-img {
+  display: flex;
+  justify-content: space-between;
+}
+.header-section {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 64px 120px;
+
+  background-image: url("../img/background-header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sound-svg {
+  width: 64px;
+  height: 76px;
+}
