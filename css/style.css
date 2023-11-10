@@ -19,6 +19,10 @@ body {
   width: 24px;
   height: 24px;
 }
+.burger-menu-button {
+  background: transparent;
+  border: none;
+}
 .div-img {
   display: flex;
   justify-content: space-between;
