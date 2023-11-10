@@ -1,5 +1,18 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
+}
+.slogan {
+  color: #292929;
+
+  font-family: Inter;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 100%; /* 48px */
+  letter-spacing: -0.03125em;
 }
 .burger-menu {
   width: 24px;
@@ -25,4 +38,40 @@ body {
 .sound-svg {
   width: 64px;
   height: 76px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 64px 120px;
+  background-color: #e8eff9;
+}
+.div-img-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.link-nav {
+  color: #292929;
+
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1em;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.menu-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 0;
 }
