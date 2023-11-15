@@ -4,8 +4,9 @@ html {
 body {
   margin: 0;
 }
+
 .header-section {
-  width: 787.849px;
+  width: 100%;
   height: 500px;
 
   padding: 32px 16px;
@@ -17,7 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 320px;
+  min-width: 320px;
 }
 .burger-menu {
   width: 24px;
