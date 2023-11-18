@@ -336,4 +336,7 @@ body {
   .menu-ul {
     gap: 32px;
   }
+  .is-open {
+    padding: 35px 20px;
+  }
 }
