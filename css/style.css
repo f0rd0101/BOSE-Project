@@ -4,6 +4,7 @@ html {
 body {
   margin: 0;
 }
+/* =================Header================== */
 .is-open {
   display: flex;
   flex-direction: column;
@@ -45,10 +46,14 @@ body {
 .menu-ul {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 25px;
   margin: 0;
+  padding-bottom: 90px;
 
   list-style-type: none;
+}
+.burger-icon-320 {
+  fill: white;
 }
 
 .header-section {
@@ -320,7 +325,8 @@ body {
     background-size: cover;
   }
 }
-@media screen and (min-width: 492px) {
+@media screen and (min-width: 472px) {
+  /* =================Header================== */
   .burger-menu {
     fill: black;
   }
@@ -330,6 +336,7 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
+  /* =================Header================== */
   .header-section {
     height: 835px;
   }
