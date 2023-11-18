@@ -4,6 +4,14 @@ html {
 body {
   margin: 0;
 }
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+
 /* =================Header================== */
 .is-open {
   display: flex;
@@ -101,6 +109,63 @@ body {
   display: flex;
   justify-content: space-between;
 }
+/* =================Recommended================== */
+.rec-section {
+  padding: 0 16px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.rec-h2 {
+  color: #292929;
+  text-align: center;
+  font-family: Inter;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1em; /* 100% */
+  letter-spacing: -0.03125em;
+  margin: 0;
+  margin-bottom: 64px;
+}
+
+.h3-rec {
+  color: #292929;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 140%;
+  margin: 0;
+  margin-top: 32px;
+}
+.p1-rec {
+  color: #292929;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 0;
+  margin-top: 8px;
+}
+.p2-rec {
+  color: #292929;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 0;
+  margin-top: 12px;
+}
 @media screen and (min-width: 1260px) {
   /* =================Header================== */
   .slogan {
@@ -182,18 +247,7 @@ body {
   .rec-section {
     padding: 120px;
   }
-  .rec-h2 {
-    color: #292929;
-    text-align: center;
-    font-family: Inter;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1em; /* 100% */
-    letter-spacing: -0.03125em;
-    margin: 0;
-    margin-bottom: 64px;
-  }
+
   .product-ul {
     display: flex;
     gap: 24px;
@@ -326,12 +380,27 @@ body {
   }
 }
 @media screen and (min-width: 472px) {
-  /* =================Header================== */
+  /* =================Header menu settings================== */
   .burger-menu {
     fill: black;
   }
   .menu-ul {
     gap: 20px;
+  }
+  .rec-section {
+    padding: 0 20px;
+  }
+  img {
+    width: 400px;
+  }
+  .product-li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .product-ul :nth-child(-n + 3) {
+    display: flex;
+    align-items: center;
   }
 }
 
