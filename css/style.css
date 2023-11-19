@@ -119,6 +119,23 @@ img {
   justify-content: center;
   margin-top: 40px;
 }
+.product-li {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.product-li:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.product-ul {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
 
 .rec-h2 {
   color: #292929;
@@ -165,6 +182,45 @@ img {
   line-height: 140%;
   margin: 0;
   margin-top: 12px;
+}
+@media screen and (min-width: 472px) {
+  /* =================Header menu settings================== */
+  .burger-menu {
+    fill: black;
+  }
+  .menu-ul {
+    gap: 20px;
+  }
+  .rec-section {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: 400px;
+  }
+  .product-li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+  }
+  .product-ul :nth-child(-n + 3) {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .product-ul {
+    flex-direction: row;
+  }
+  .product-li {
+    width: 300px;
+  }
+  img {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 1260px) {
   /* =================Header================== */
@@ -254,6 +310,7 @@ img {
     justify-content: center;
     margin: 0;
   }
+
   .h3-rec {
     color: #292929;
 
@@ -377,30 +434,6 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  }
-}
-@media screen and (min-width: 472px) {
-  /* =================Header menu settings================== */
-  .burger-menu {
-    fill: black;
-  }
-  .menu-ul {
-    gap: 20px;
-  }
-  .rec-section {
-    padding: 0 20px;
-  }
-  img {
-    width: 400px;
-  }
-  .product-li {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .product-ul :nth-child(-n + 3) {
-    display: flex;
-    align-items: center;
   }
 }
 
