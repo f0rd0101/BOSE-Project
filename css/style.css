@@ -115,9 +115,10 @@ img {
   display: flex;
   margin: 0 auto;
   flex-direction: column;
-  flex-wrap: wrap;
+
   justify-content: center;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 .product-li {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -183,6 +184,38 @@ img {
   margin: 0;
   margin-top: 12px;
 }
+/* =================Products================== */
+.product-section {
+  padding: 0 16px;
+}
+.h2-prod {
+  text-align: center;
+  color: #292929;
+  margin: 0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1; /* 100% */
+  letter-spacing: -0.03125em;
+}
+.ul-prod {
+  display: flex;
+  gap: 20px;
+}
+.img-product {
+  width: 100%;
+}
+.p-prod {
+  color: #292929;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
 @media screen and (min-width: 472px) {
   /* =================Header menu settings================== */
   .burger-menu {
@@ -197,9 +230,9 @@ img {
     justify-content: center;
     align-items: center;
   }
-  img {
+  /* img {
     width: 400px;
-  }
+  } */
   .product-li {
     display: flex;
     justify-content: center;
