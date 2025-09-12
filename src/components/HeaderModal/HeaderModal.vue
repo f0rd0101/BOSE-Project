@@ -41,6 +41,8 @@ const modalClass = computed(()=>{
       </div>
     </div>
 </template>
+
+
 <style scoped>
 
 .div-img-2 {
