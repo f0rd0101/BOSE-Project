@@ -8,7 +8,7 @@ const props = defineProps({
 })
 
 </script>
-<template>
+<template >
  <li class="product-li">
             <img :src="props.img" alt="product-1" class="img-product" />
             <h3 class="h3-rec">{{ props.title }}</h3>
@@ -66,13 +66,7 @@ const props = defineProps({
     margin: 0;
     margin-top: 12px;
   }
-  @media screen and (min-width: 472px) {
-    .product-li {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 400px;
-  }
+
   .h3-rec {
   color: #292929;
   text-align: center;
@@ -86,37 +80,11 @@ const props = defineProps({
 
 
 }
-
-  @media screen and (min-width: 1200px) {
-    .product-li {
+.product-li {
         width: 300px;
   }
 
-.p1-rec {
-    color: #292929;
 
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    margin: 0;
-    margin-top: 8px;
-  }
-
- .p2-rec {
-    color: #292929;
-
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 140%;
-    margin: 0;
-    margin-top: 12px;
-  }
-}
-  }
 
 
 

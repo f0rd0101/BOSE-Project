@@ -56,52 +56,11 @@ import product3 from '../../assets/images/product3.png'
     margin: 0;
     flex-direction: row;
 }
-@media screen and (min-width: 472px) {
-  .rec-section {
-    padding: 0 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-   .product-ul :nth-child(-n + 3) {
-    display: flex;
-    align-items: center;
-  }
-  .product-ul{
-     flex-direction: column;
-  }
-}
 
-@media screen and (min-width: 1260px) {
- .rec-section {
-    padding: 120px;
-  }
-  .p1-rec {
-  color: #292929;
 
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%;
-  margin: 0;
-  margin-top: 8px;
-}
-.p2-rec {
-  color: #292929;
 
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 140%;
-  margin: 0;
-  margin-top: 12px;
-}
- .product-ul{
-     flex-direction: row;
-  }
-}
+
+
 
 
 

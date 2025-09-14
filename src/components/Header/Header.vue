@@ -17,9 +17,7 @@ const modalSwitchToogle = ()=>{
         <img src="../../assets/images/bose-logo.png" alt="bose-logo" class="bose-logo" />
         <button type="button" class="burger-menu-button" @click="modalSwitchToogle">
           <a href="#menu">
-            <svg class="burger-menu burger-icon-320">
-              <use href="../../assets/images/svgpic.svg#icon-Icon-Burger-menu"></use>
-            </svg>
+            &equiv;
           </a>
         </button>
       </div>
@@ -63,8 +61,11 @@ const modalSwitchToogle = ()=>{
   height: 24px;
 }
 .burger-menu-button {
-  background: transparent;
+  font-size: 24px;
+  line-height: 1;
+  background: none;
   border: none;
+  cursor: pointer;
 }
 .sound-svg {
   width: 32px;
@@ -88,48 +89,8 @@ const modalSwitchToogle = ()=>{
   display: flex;
   justify-content: space-between;
 }
-@media screen and (min-width: 472px) {
-  /* =================Header menu settings================== */
-  .burger-menu {
-    fill: black;
-  }
-  .menu-ul {
-    gap: 20px;
-  }
-}
-@media screen and (min-width: 1200px) {
   img {
     width: 100%;
-  }
-}
-@media screen and (min-width: 1260px) {
-  /* =================Header================== */
-  .slogan {
-    color: #292929;
-
-    font-family: Inter;
-    font-size: 48px;
-    font-style: italic;
-    font-weight: 800;
-    line-height: 100%; /* 48px */
-    letter-spacing: -0.03125em;
-  }
-  .burger-menu {
-    width: 24px;
-    height: 24px;
-  }
-  .burger-menu-button {
-    background: transparent;
-    border: none;
-  }
-  .div-img {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .sound-svg {
-    width: 64px;
-    height: 76px;
   }
   a {
     text-decoration: none;
@@ -161,5 +122,5 @@ const modalSwitchToogle = ()=>{
     gap: 32px;
     margin: 0;
   }
-}
+
 </style>
